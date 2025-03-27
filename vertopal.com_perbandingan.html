@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>fe23879ba1fe48b98c24641269c2a17f</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="naive-bayes" class="cell markdown">
+<h2>Naive Bayes</h2>
+<p>Naive Bayes adalah algoritma klasifikasi berbasis Teorema Bayes
+dengan asumsi bahwa fitur-fitur dalam data bersifat independen satu sama
+lain (asumsi naïf). Algoritma ini sering digunakan untuk klasifikasi
+teks, seperti spam filtering dan analisis sentimen.</p>
+<p>Contoh aplikasi Naive Bayes adalah:</p>
+<ul>
+<li>Prediksi cuaca</li>
+<li>Analisis sentimen teks</li>
+<li>Klasifikasi email span dan bukan spam</li>
+</ul>
+<p>Naive Bayes didasarkan pada terema Bayes: <img
+src="image/Teore%20Bayes.png" alt="alt text" /></p>
+<p>Penjelasan:</p>
+<ul>
+<li>𝑃(𝑌|𝑋): Probabilitas posterior (kelas 𝑌 diberikan fitur 𝑋).</li>
+<li>𝑃(𝑋|𝑌): Likelihood (probabilitas fitur𝑋 diberikan kelas 𝑌).</li>
+<li>𝑃(𝑌): Prior probability (probabilitas awal kelas 𝑌).</li>
+<li>𝑃(𝑋): Evidence (probabilitas fitur 𝑋 secara keseluruhan).</li>
+</ul>
+<p>Tujuan nya yaitu untuk mencari kelas Y dengan nilai 𝑃(𝑌|𝑋)
+tertinggi</p>
+<h3 id="jenis-naive-bayes">Jenis Naive Bayes</h3>
+<ul>
+<li>Gaussian Naïve Bayes (untuk data numerik, menggunakan distribusi
+normal).</li>
+<li>Multinomial Naïve Bayes (untuk data kategori, seperti klasifikasi
+teks).</li>
+<li>Bernoulli Naïve Bayes (untuk fitur biner, misalnya kata ada/tidak
+dalam teks).</li>
+</ul>
+<h3 id="kelebihan-naive-bayes">Kelebihan Naive Bayes</h3>
+<ul>
+<li>Sederhana dan mudah diimplementasikan.</li>
+<li>Cepat dan efisien untuk dataset besar.</li>
+<li>Cocok untuk data dengan banyak fitur.</li>
+</ul>
+<h3 id="kekurangan-naive-bayes">Kekurangan Naive Bayes</h3>
+<ul>
+<li>Asumsi independensi fitur seringkali tidak realistis.</li>
+<li>Performa menurun jika fitur saling bergantung.</li>
+<li>Memerlukan penanganan khusus untuk data dengan probabilitas
+nol.</li>
+</ul>
+</section>
+<section
+id="membandingkan-data-iris-tanpa-outlier-dan-dengan-outlier-menggunakan-naive-bayes"
+class="cell markdown">
+<h2>Membandingkan Data Iris tanpa outlier dan dengan outlier menggunakan
+naive bayes</h2>
+<p>Proses perhitungan ini saya lakukan didalam microsoft excel <a
+href="Perbandingan%20naive%20bayes.xlsx">Perhitungan dalam excel</a></p>
+<ol>
+<li><p>Pertama kita harus menentukan tipe data dari data iris yang kita
+gunakan. Pada percobaan ini tipe data adalah numerik. Pada dataset
+dengan outlier ada total 150 data dengan 3 clas yang masing masing ada
+50 data. Sementara tanpa outlier ada total 142 data dengan jumlah class
+seotsa = 47, versicolor = 49, virginica = 46.</p></li>
+<li><p>Hitung Probabilitas setiap class, yaitu dengan membagikan total
+data dengan jumlah kelas. Hasil perhitungan dengan outlier adalah
+sebagai berikut Setosa = 0,333333333 Veersicolor = 0,333333333 virginica
+= 0,333333333</p></li>
+</ol>
+<p>Sementara tanpa outlier adalah sebagai berikut Setosa = 0,330985915
+Veersicolor = 0,345070423 virginica = 0,323943662</p>
+<ol>
+<li><p>Kemudian hitung mean dan Varians. Untuk menghitung means di excel
+kita menggunakan rumus AVERAGE dan untuk menghitung varians kita
+menggunakan rumus VAR.P</p></li>
+<li><p>Selanjutnya lakukan prediksi email baru. Kita dapat menggunakan
+rumus Gausian untuk menghitungnya. <img src="image/Gausian.png"
+alt="alt text" /> P(X|Y) = merupakan inputan acakan untuk
+menghitung</p></li>
+</ol>
+<p>dalam excel kita dapat menggunakan:</p>
+<h4
+id="1sqrt2pivariansexp-input-mean22varians">=(1/SQRT(2<em>PI()</em>[Varians]))<em>EXP(-(([Input]-[Mean])^2)/(2</em>[Varians]))</h4>
+<ol>
+<li><p>langkah selanjutnya kita akan menggabungkan dengan rumus teorema
+bayes <img src="image/Teore%20Bayes.png" alt="alt text" /> atau dalam
+excel kita melakukan perkalian</p>
+<h4
+id="probabilitaspredeiksi-email-baru-tiap-class">=[probabilitas]*[predeiksi
+email baru tiap class]</h4></li>
+<li><p>Terakhir untuk memprediksi kelas kita akan memilih dengan nilai
+𝑃(𝑌|𝑋) tertinggi.</p></li>
+</ol>
+<p>Dari hasil perbandingan saya data iris dengan outlier didapatkan
+hasil terbesar yaitu class stosa dengan nilai = 0,0000000131 Sementara
+data iris dengan tanpa outlier diperoleh hasil terbesar yaitu class
+stosa dengan nilai = 0,0000000000650</p>
+</section>
+<div class="cell markdown">
+
+</div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/vcd15cbe7772f49c399c6a5babf22c1241717689176015" integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ==" data-cf-beacon='{"rayId":"926e82be4b9d6bd3","version":"2025.1.0","r":1,"token":"0357a45f23a943f08700f7f9af191ee6","serverTiming":{"name":{"cfExtPri":true,"cfL4":true,"cfSpeedBrain":true,"cfCacheStatus":true}}}' crossorigin="anonymous"></script>
+</body>
+</html>

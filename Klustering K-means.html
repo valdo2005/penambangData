@@ -1,0 +1,1489 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>4b6b54d45c544ad589a154c50e06cb9b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<div id="80afadad" class="cell markdown">
+<h1 id="klastering-k-means">Klastering K-Means</h1>
+<h2 id="pengertian">Pengertian</h2>
+<p>K-Means adalah salah satu metode <em>clustering</em> berbasis partisi
+yang digunakan untuk mengelompokkan sekumpulan data ke dalam sejumlah
+<em>K</em> klaster. Setiap klaster direpresentasikan oleh sebuah
+<strong>centroid</strong>, yaitu titik pusat (rata-rata) dari data yang
+termasuk dalam klaster tersebut.</p>
+<p>Metode ini sangat populer karena kesederhanaannya serta
+efektivitasnya dalam menemukan pola tersembunyi dalam data yang tidak
+memiliki label.</p>
+<h2 id="tujuan-dan-fungsi">Tujuan dan Fungsi</h2>
+<p>Tujuan utama dari algoritma K-Means adalah untuk:</p>
+<ul>
+<li><strong>Meminimalkan variasi dalam klaster</strong>
+(<em>within-cluster variance</em>), sehingga anggota dalam satu klaster
+saling mirip.</li>
+<li><strong>Maksimalisasi perbedaan antar klaster</strong>
+(<em>between-cluster variance</em>), sehingga setiap klaster memiliki
+karakteristik yang berbeda satu sama lain.</li>
+</ul>
+<p>Dengan demikian, K-Means bertujuan agar:</p>
+<ul>
+<li>Objek-objek dalam satu klaster sehomogen mungkin.</li>
+<li>Objek-objek antar klaster seheterogen mungkin.</li>
+</ul>
+<h2 id="evaluasi-hasil-klastering">Evaluasi Hasil Klastering</h2>
+<p>Beberapa metrik yang umum digunakan untuk mengevaluasi kualitas hasil
+klastering adalah:</p>
+<h3 id="1-inertia">1. Inertia</h3>
+<p>Jumlah kuadrat jarak antara setiap data dengan centroid klasternya.
+Nilai inertia yang rendah menandakan klaster yang lebih rapat.</p>
+<p>Contoh:</p>
+</div>
+<div id="e06676e2" class="cell code">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>model <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">3</span>, random_state<span class="op">=</span><span class="dv">42</span>)</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>model.fit(X)</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Inertia:&quot;</span>, model.inertia_)</span></code></pre></div>
+</div>
+<div id="5c06d47a" class="cell markdown">
+<h3 id="2-silhouette-score">2. Silhouette Score:</h3>
+<p>Mengukur seberapa mirip suatu objek dengan klasternya sendiri
+dibandingkan dengan klaster lain. Nilainya berkisar dari -1 hingga 1.
+Semakin tinggi nilainya, semakin baik pemisahan antar klaster.</p>
+<p>Contoh:</p>
+</div>
+<div id="48482ba8" class="cell code">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> silhouette_score</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>score <span class="op">=</span> silhouette_score(X, model.labels_)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Silhouette Score:&quot;</span>, score)</span></code></pre></div>
+</div>
+<div id="477924c0" class="cell markdown">
+<h3 id="3-elbow-method">3. Elbow Method:</h3>
+<p>Digunakan untuk menentukan jumlah klaster yang optimal dengan memplot
+grafik inertia terhadap jumlah klaster. Titik “tekukan” (elbow)
+menunjukkan nilai K yang ideal.</p>
+<p>Contoh:</p>
+</div>
+<div id="24e2d7b3" class="cell markdown">
+<h2 id="implementasi-k-means-dengan-2-klaster">Implementasi K-Means
+dengan 2 Klaster</h2>
+<p>Pada bagian ini, kita akan mengelompokkan data ke dalam dua klaster
+menggunakan algoritma K-Means. Visualisasi digunakan untuk
+memperlihatkan hasil klastering.</p>
+</div>
+<div id="7bb544cf" class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pymysql</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> psycopg2</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sqlalchemy <span class="im">import</span> create_engine</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> StandardScaler</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Buat engine SQLAlchemy untuk MySQL</span></span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>mysql_engine <span class="op">=</span> create_engine(</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;mysql+pymysql://avnadmin:AVNS_2ByB5ZbPXeYhBHP6anG@mysql-3f502423-tuhuwkwk-f38a.h.aivencloud.com:25886/defaultdb&quot;</span></span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Buat engine SQLAlchemy untuk PostgreSQL</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>postgres_engine <span class="op">=</span> create_engine(</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>    <span class="st">&quot;postgresql+psycopg2://avnadmin:AVNS_RXRKVCrwzjE7ECInaHa@pg-3e9f6d55-tuhuwkwk-f38a.h.aivencloud.com:25886/defaultdb&quot;</span></span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a><span class="co"># Query untuk mengambil data</span></span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>mysql_query <span class="op">=</span> <span class="st">&quot;SELECT id, class, petal_length, petal_width FROM irisSQL&quot;</span></span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>postgres_query <span class="op">=</span> <span class="st">&quot;SELECT id, sepal_length, sepal_width FROM irispostgre&quot;</span></span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Ambil data dari MySQL dan PostgreSQL sebagai DataFrame Pandas</span></span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>df_mysql <span class="op">=</span> pd.read_sql(mysql_query, mysql_engine, coerce_float<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>df_postgres <span class="op">=</span> pd.read_sql(postgres_query, postgres_engine, coerce_float<span class="op">=</span><span class="va">True</span>)</span></code></pre></div>
+</div>
+<div id="1a68b5fa" class="cell code" data-execution_count="88">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> silhouette_score</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Membaca file CSV</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.merge(df_mysql, df_postgres, on<span class="op">=</span><span class="st">&quot;id&quot;</span>, how<span class="op">=</span><span class="st">&quot;inner&quot;</span>)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="co"># df = pd.read_csv(&quot;data_iris.csv&quot;)</span></span>
+<span id="cb4-7"><a href="#cb4-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(df.head())  <span class="co"># Menampilkan 5 baris pertama dari DataFrame</span></span>
+<span id="cb4-8"><a href="#cb4-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-9"><a href="#cb4-9" aria-hidden="true" tabindex="-1"></a>shilouette_scores <span class="op">=</span> []</span>
+<span id="cb4-10"><a href="#cb4-10" aria-hidden="true" tabindex="-1"></a>sse_scores <span class="op">=</span> []</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>   id        class  petal_length  petal_width  sepal_length  sepal_width
+0   1  Iris-setosa           1.4          0.2           5.1          3.5
+1   2  Iris-setosa           1.4          0.2           4.9          3.0
+2   3  Iris-setosa           1.3          0.2           4.7          3.2
+3   4  Iris-setosa           1.5          0.2           4.6          3.1
+4   5  Iris-setosa           1.4          0.2           5.0          3.6
+</code></pre>
+</div>
+</div>
+<div id="b08e6701" class="cell code" data-execution_count="89">
+<div class="sourceCode" id="cb6"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df.drop(columns<span class="op">=</span>[<span class="st">&quot;class&quot;</span>, <span class="st">&quot;id&quot;</span>]).values</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># print(X)</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>X_scaled <span class="op">=</span> scaler.fit_transform(X)</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(X_scaled)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[-1.34127240e+00 -1.31297673e+00 -9.00681170e-01  1.03205722e+00]
+ [-1.34127240e+00 -1.31297673e+00 -1.14301691e+00 -1.24957601e-01]
+ [-1.39813811e+00 -1.31297673e+00 -1.38535265e+00  3.37848329e-01]
+ [-1.28440670e+00 -1.31297673e+00 -1.50652052e+00  1.06445364e-01]
+ [-1.34127240e+00 -1.31297673e+00 -1.02184904e+00  1.26346019e+00]
+ [-1.17067529e+00 -1.05003079e+00 -5.37177559e-01  1.95766909e+00]
+ [-1.34127240e+00 -1.18150376e+00 -1.50652052e+00  8.00654259e-01]
+ [-1.28440670e+00 -1.31297673e+00 -1.02184904e+00  8.00654259e-01]
+ [-1.34127240e+00 -1.31297673e+00 -1.74885626e+00 -3.56360566e-01]
+ [-1.28440670e+00 -1.44444970e+00 -1.14301691e+00  1.06445364e-01]
+ [-1.28440670e+00 -1.31297673e+00 -5.37177559e-01  1.49486315e+00]
+ [-1.22754100e+00 -1.31297673e+00 -1.26418478e+00  8.00654259e-01]
+ [-1.34127240e+00 -1.44444970e+00 -1.26418478e+00 -1.24957601e-01]
+ [-1.51186952e+00 -1.44444970e+00 -1.87002413e+00 -1.24957601e-01]
+ [-1.45500381e+00 -1.31297673e+00 -5.25060772e-02  2.18907205e+00]
+ [-1.28440670e+00 -1.05003079e+00 -1.73673948e-01  3.11468391e+00]
+ [-1.39813811e+00 -1.05003079e+00 -5.37177559e-01  1.95766909e+00]
+ [-1.34127240e+00 -1.18150376e+00 -9.00681170e-01  1.03205722e+00]
+ [-1.17067529e+00 -1.18150376e+00 -1.73673948e-01  1.72626612e+00]
+ [-1.28440670e+00 -1.18150376e+00 -9.00681170e-01  1.72626612e+00]
+ [-1.17067529e+00 -1.31297673e+00 -5.37177559e-01  8.00654259e-01]
+ [-1.28440670e+00 -1.05003079e+00 -9.00681170e-01  1.49486315e+00]
+ [-1.56873522e+00 -1.31297673e+00 -1.50652052e+00  1.26346019e+00]
+ [-1.17067529e+00 -9.18557817e-01 -9.00681170e-01  5.69251294e-01]
+ [-1.05694388e+00 -1.31297673e+00 -1.26418478e+00  8.00654259e-01]
+ [-1.22754100e+00 -1.31297673e+00 -1.02184904e+00 -1.24957601e-01]
+ [-1.22754100e+00 -1.05003079e+00 -1.02184904e+00  8.00654259e-01]
+ [-1.28440670e+00 -1.31297673e+00 -7.79513300e-01  1.03205722e+00]
+ [-1.34127240e+00 -1.31297673e+00 -7.79513300e-01  8.00654259e-01]
+ [-1.22754100e+00 -1.31297673e+00 -1.38535265e+00  3.37848329e-01]
+ [-1.22754100e+00 -1.31297673e+00 -1.26418478e+00  1.06445364e-01]
+ [-1.28440670e+00 -1.05003079e+00 -5.37177559e-01  8.00654259e-01]
+ [-1.28440670e+00 -1.44444970e+00 -7.79513300e-01  2.42047502e+00]
+ [-1.34127240e+00 -1.31297673e+00 -4.16009689e-01  2.65187798e+00]
+ [-1.28440670e+00 -1.44444970e+00 -1.14301691e+00  1.06445364e-01]
+ [-1.45500381e+00 -1.31297673e+00 -1.02184904e+00  3.37848329e-01]
+ [-1.39813811e+00 -1.31297673e+00 -4.16009689e-01  1.03205722e+00]
+ [-1.28440670e+00 -1.44444970e+00 -1.14301691e+00  1.06445364e-01]
+ [-1.39813811e+00 -1.31297673e+00 -1.74885626e+00 -1.24957601e-01]
+ [-1.28440670e+00 -1.31297673e+00 -9.00681170e-01  8.00654259e-01]
+ [-1.39813811e+00 -1.18150376e+00 -1.02184904e+00  1.03205722e+00]
+ [-1.39813811e+00 -1.18150376e+00 -1.62768839e+00 -1.74477836e+00]
+ [-1.39813811e+00 -1.31297673e+00 -1.74885626e+00  3.37848329e-01]
+ [-1.22754100e+00 -7.87084847e-01 -1.02184904e+00  1.03205722e+00]
+ [-1.05694388e+00 -1.05003079e+00 -9.00681170e-01  1.72626612e+00]
+ [-1.34127240e+00 -1.18150376e+00 -1.26418478e+00 -1.24957601e-01]
+ [-1.22754100e+00 -1.31297673e+00 -9.00681170e-01  1.72626612e+00]
+ [-1.34127240e+00 -1.31297673e+00 -1.50652052e+00  3.37848329e-01]
+ [-1.28440670e+00 -1.31297673e+00 -6.58345429e-01  1.49486315e+00]
+ [-1.34127240e+00 -1.31297673e+00 -1.02184904e+00  5.69251294e-01]
+ [ 5.35295827e-01  2.64698913e-01  1.40150837e+00  3.37848329e-01]
+ [ 4.21564419e-01  3.96171883e-01  6.74501145e-01  3.37848329e-01]
+ [ 6.49027235e-01  3.96171883e-01  1.28034050e+00  1.06445364e-01]
+ [ 1.37235899e-01  1.33225943e-01 -4.16009689e-01 -1.74477836e+00]
+ [ 4.78430123e-01  3.96171883e-01  7.95669016e-01 -5.87763531e-01]
+ [ 4.21564419e-01  1.33225943e-01 -1.73673948e-01 -5.87763531e-01]
+ [ 5.35295827e-01  5.27644853e-01  5.53333275e-01  5.69251294e-01]
+ [-2.60824029e-01 -2.61192967e-01 -1.14301691e+00 -1.51337539e+00]
+ [ 4.78430123e-01  1.33225943e-01  9.16836886e-01 -3.56360566e-01]
+ [ 8.03701950e-02  2.64698913e-01 -7.79513300e-01 -8.19166497e-01]
+ [-1.47092621e-01 -2.61192967e-01 -1.02184904e+00 -2.43898725e+00]
+ [ 2.50967307e-01  3.96171883e-01  6.86617933e-02 -1.24957601e-01]
+ [ 1.37235899e-01 -2.61192967e-01  1.89829664e-01 -1.97618132e+00]
+ [ 5.35295827e-01  2.64698913e-01  3.10997534e-01 -3.56360566e-01]
+ [-9.02269170e-02  1.33225943e-01 -2.94841818e-01 -3.56360566e-01]
+ [ 3.64698715e-01  2.64698913e-01  1.03800476e+00  1.06445364e-01]
+ [ 4.21564419e-01  3.96171883e-01 -2.94841818e-01 -1.24957601e-01]
+ [ 1.94101603e-01 -2.61192967e-01 -5.25060772e-02 -8.19166497e-01]
+ [ 4.21564419e-01  3.96171883e-01  4.32165405e-01 -1.97618132e+00]
+ [ 8.03701950e-02 -1.29719997e-01 -2.94841818e-01 -1.28197243e+00]
+ [ 5.92161531e-01  7.90590793e-01  6.86617933e-02  3.37848329e-01]
+ [ 1.37235899e-01  1.33225943e-01  3.10997534e-01 -5.87763531e-01]
+ [ 6.49027235e-01  3.96171883e-01  5.53333275e-01 -1.28197243e+00]
+ [ 5.35295827e-01  1.75297293e-03  3.10997534e-01 -5.87763531e-01]
+ [ 3.07833011e-01  1.33225943e-01  6.74501145e-01 -3.56360566e-01]
+ [ 3.64698715e-01  2.64698913e-01  9.16836886e-01 -1.24957601e-01]
+ [ 5.92161531e-01  2.64698913e-01  1.15917263e+00 -5.87763531e-01]
+ [ 7.05892939e-01  6.59117823e-01  1.03800476e+00 -1.24957601e-01]
+ [ 4.21564419e-01  3.96171883e-01  1.89829664e-01 -3.56360566e-01]
+ [-1.47092621e-01 -2.61192967e-01 -1.73673948e-01 -1.05056946e+00]
+ [ 2.35044910e-02 -1.29719997e-01 -4.16009689e-01 -1.51337539e+00]
+ [-3.33612130e-02 -2.61192967e-01 -4.16009689e-01 -1.51337539e+00]
+ [ 8.03701950e-02  1.75297293e-03 -5.25060772e-02 -8.19166497e-01]
+ [ 7.62758643e-01  5.27644853e-01  1.89829664e-01 -8.19166497e-01]
+ [ 4.21564419e-01  3.96171883e-01 -5.37177559e-01 -1.24957601e-01]
+ [ 4.21564419e-01  5.27644853e-01  1.89829664e-01  8.00654259e-01]
+ [ 5.35295827e-01  3.96171883e-01  1.03800476e+00  1.06445364e-01]
+ [ 3.64698715e-01  1.33225943e-01  5.53333275e-01 -1.74477836e+00]
+ [ 1.94101603e-01  1.33225943e-01 -2.94841818e-01 -1.24957601e-01]
+ [ 1.37235899e-01  1.33225943e-01 -4.16009689e-01 -1.28197243e+00]
+ [ 3.64698715e-01  1.75297293e-03 -4.16009689e-01 -1.05056946e+00]
+ [ 4.78430123e-01  2.64698913e-01  3.10997534e-01 -1.24957601e-01]
+ [ 1.37235899e-01  1.75297293e-03 -5.25060772e-02 -1.05056946e+00]
+ [-2.60824029e-01 -2.61192967e-01 -1.02184904e+00 -1.74477836e+00]
+ [ 2.50967307e-01  1.33225943e-01 -2.94841818e-01 -8.19166497e-01]
+ [ 2.50967307e-01  1.75297293e-03 -1.73673948e-01 -1.24957601e-01]
+ [ 2.50967307e-01  1.33225943e-01 -1.73673948e-01 -3.56360566e-01]
+ [ 3.07833011e-01  1.33225943e-01  4.32165405e-01 -3.56360566e-01]
+ [-4.31421141e-01 -1.29719997e-01 -9.00681170e-01 -1.28197243e+00]
+ [ 1.94101603e-01  1.33225943e-01 -1.73673948e-01 -5.87763531e-01]
+ [ 1.27454998e+00  1.71090158e+00  5.53333275e-01  5.69251294e-01]
+ [ 7.62758643e-01  9.22063763e-01 -5.25060772e-02 -8.19166497e-01]
+ [ 1.21768427e+00  1.18500970e+00  1.52267624e+00 -1.24957601e-01]
+ [ 1.04708716e+00  7.90590793e-01  5.53333275e-01 -3.56360566e-01]
+ [ 1.16081857e+00  1.31648267e+00  7.95669016e-01 -1.24957601e-01]
+ [ 1.61574420e+00  1.18500970e+00  2.12851559e+00 -1.24957601e-01]
+ [ 4.21564419e-01  6.59117823e-01 -1.14301691e+00 -1.28197243e+00]
+ [ 1.44514709e+00  7.90590793e-01  1.76501198e+00 -3.56360566e-01]
+ [ 1.16081857e+00  7.90590793e-01  1.03800476e+00 -1.28197243e+00]
+ [ 1.33141568e+00  1.71090158e+00  1.64384411e+00  1.26346019e+00]
+ [ 7.62758643e-01  1.05353673e+00  7.95669016e-01  3.37848329e-01]
+ [ 8.76490051e-01  9.22063763e-01  6.74501145e-01 -8.19166497e-01]
+ [ 9.90221459e-01  1.18500970e+00  1.15917263e+00 -1.24957601e-01]
+ [ 7.05892939e-01  1.05353673e+00 -1.73673948e-01 -1.28197243e+00]
+ [ 7.62758643e-01  1.57942861e+00 -5.25060772e-02 -5.87763531e-01]
+ [ 8.76490051e-01  1.44795564e+00  6.74501145e-01  3.37848329e-01]
+ [ 9.90221459e-01  7.90590793e-01  7.95669016e-01 -1.24957601e-01]
+ [ 1.67260991e+00  1.31648267e+00  2.24968346e+00  1.72626612e+00]
+ [ 1.78634131e+00  1.44795564e+00  2.24968346e+00 -1.05056946e+00]
+ [ 7.05892939e-01  3.96171883e-01  1.89829664e-01 -1.97618132e+00]
+ [ 1.10395287e+00  1.44795564e+00  1.28034050e+00  3.37848329e-01]
+ [ 6.49027235e-01  1.05353673e+00 -2.94841818e-01 -5.87763531e-01]
+ [ 1.67260991e+00  1.05353673e+00  2.24968346e+00 -5.87763531e-01]
+ [ 6.49027235e-01  7.90590793e-01  5.53333275e-01 -8.19166497e-01]
+ [ 1.10395287e+00  1.18500970e+00  1.03800476e+00  5.69251294e-01]
+ [ 1.27454998e+00  7.90590793e-01  1.64384411e+00  3.37848329e-01]
+ [ 5.92161531e-01  7.90590793e-01  4.32165405e-01 -5.87763531e-01]
+ [ 6.49027235e-01  7.90590793e-01  3.10997534e-01 -1.24957601e-01]
+ [ 1.04708716e+00  1.18500970e+00  6.74501145e-01 -5.87763531e-01]
+ [ 1.16081857e+00  5.27644853e-01  1.64384411e+00 -1.24957601e-01]
+ [ 1.33141568e+00  9.22063763e-01  1.88617985e+00 -5.87763531e-01]
+ [ 1.50201279e+00  1.05353673e+00  2.49201920e+00  1.72626612e+00]
+ [ 1.04708716e+00  1.31648267e+00  6.74501145e-01 -5.87763531e-01]
+ [ 7.62758643e-01  3.96171883e-01  5.53333275e-01 -5.87763531e-01]
+ [ 1.04708716e+00  2.64698913e-01  3.10997534e-01 -1.05056946e+00]
+ [ 1.33141568e+00  1.44795564e+00  2.24968346e+00 -1.24957601e-01]
+ [ 1.04708716e+00  1.57942861e+00  5.53333275e-01  8.00654259e-01]
+ [ 9.90221459e-01  7.90590793e-01  6.74501145e-01  1.06445364e-01]
+ [ 5.92161531e-01  7.90590793e-01  1.89829664e-01 -1.24957601e-01]
+ [ 9.33355755e-01  1.18500970e+00  1.28034050e+00  1.06445364e-01]
+ [ 1.04708716e+00  1.57942861e+00  1.03800476e+00  1.06445364e-01]
+ [ 7.62758643e-01  1.44795564e+00  1.28034050e+00  1.06445364e-01]
+ [ 7.62758643e-01  9.22063763e-01 -5.25060772e-02 -8.19166497e-01]
+ [ 1.21768427e+00  1.44795564e+00  1.15917263e+00  3.37848329e-01]
+ [ 1.10395287e+00  1.71090158e+00  1.03800476e+00  5.69251294e-01]
+ [ 8.19624347e-01  1.44795564e+00  1.03800476e+00 -1.24957601e-01]
+ [ 7.05892939e-01  9.22063763e-01  5.53333275e-01 -1.28197243e+00]
+ [ 8.19624347e-01  1.05353673e+00  7.95669016e-01 -1.24957601e-01]
+ [ 9.33355755e-01  1.44795564e+00  4.32165405e-01  8.00654259e-01]
+ [ 7.62758643e-01  7.90590793e-01  6.86617933e-02 -1.24957601e-01]]
+</code></pre>
+</div>
+</div>
+<div id="6371712a" class="cell markdown">
+<p><strong>Klastering K-Means dengan 2 Klaster</strong></p>
+</div>
+<div id="0718411a" class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>kmeans2 <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">2</span>, random_state<span class="op">=</span><span class="dv">0</span>, n_init<span class="op">=</span><span class="st">&quot;auto&quot;</span>, max_iter<span class="op">=</span><span class="dv">300</span>, tol<span class="op">=</span><span class="fl">0.0001</span>, verbose<span class="op">=</span><span class="dv">0</span>,copy_x<span class="op">=</span><span class="va">True</span>,algorithm<span class="op">=</span><span class="st">&quot;lloyd&quot;</span>).fit(X)</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hasil label cluster:&quot;</span>, kmeans2.labels_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hasil label cluster: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1]
+</code></pre>
+</div>
+</div>
+<div id="e59bb941" class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Centroid cluster:&quot;</span>, kmeans2.cluster_centers_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Centroid cluster: [[1.56226415 0.28867925 5.00566038 3.36037736]
+ [4.95876289 1.69587629 6.30103093 2.88659794]]
+</code></pre>
+</div>
+</div>
+<div id="d7179c9a" class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>score2 <span class="op">=</span> silhouette_score(X, kmeans2.labels_)</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Silhouette Score:&quot;</span>, score2)</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>shilouette_scores.append(score2)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Silhouette Score: 0.6808136202936811
+</code></pre>
+</div>
+</div>
+<div id="a06c3753" class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>sse2 <span class="op">=</span> kmeans2.inertia_</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;SSE (Inertia):&quot;</span>, sse2)</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>sse_scores.append(sse2)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>SSE (Inertia): 152.36870647733903
+</code></pre>
+</div>
+</div>
+<div id="9724209a" class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reduksi dimensi ke 2 komponen utama untuk visualisasi</span></span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>X_pca <span class="op">=</span> pca.fit_transform(X_scaled)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualisasi klaster hasil KMeans</span></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>X_pca[:, <span class="dv">0</span>], y<span class="op">=</span>X_pca[:, <span class="dv">1</span>], hue<span class="op">=</span>kmeans2.labels_, palette<span class="op">=</span><span class="st">&quot;Set2&quot;</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Visualisasi Klastering K-Means (2 Klaster)&quot;</span>)</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Komponen Utama 1&quot;</span>)</span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Komponen Utama 2&quot;</span>)</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Klaster&quot;</span>)</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/59fdc2888fded458bdf284f9d53423e327496cf7.png" /></p>
+</div>
+</div>
+<div id="4b8a304d" class="cell markdown">
+<h2 id="implementasi-klastering-k-means-dengan-3-klaster">Implementasi
+Klastering K-Means dengan 3 Klaster</h2>
+<p>Eksperimen ini memperluas jumlah klaster menjadi 3 untuk melihat
+apakah pemisahan menjadi lebih representatif</p>
+</div>
+<div id="837a4297" class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>kmeans3 <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">3</span>, random_state<span class="op">=</span><span class="dv">0</span>, n_init<span class="op">=</span><span class="st">&quot;auto&quot;</span>, max_iter<span class="op">=</span><span class="dv">300</span>, tol<span class="op">=</span><span class="fl">0.0001</span>, verbose<span class="op">=</span><span class="dv">0</span>,copy_x<span class="op">=</span><span class="va">True</span>,algorithm<span class="op">=</span><span class="st">&quot;lloyd&quot;</span>).fit(X)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hasil label cluster:&quot;</span>, kmeans3.labels_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hasil label cluster: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 2 2 2 2 0 2 2 2 2
+ 2 2 0 0 2 2 2 2 0 2 0 2 0 2 2 0 0 2 2 2 2 2 0 2 2 2 2 0 2 2 2 0 2 2 2 0 2
+ 2 0]
+</code></pre>
+</div>
+</div>
+<div id="6d0f61cc" class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb19"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a>score3 <span class="op">=</span> silhouette_score(X, kmeans3.labels_)</span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Silhouette Score:&quot;</span>, score3)</span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>shilouette_scores.append(score3)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Silhouette Score: 0.5509643746707433
+</code></pre>
+</div>
+</div>
+<div id="dcbadea8" class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Centroid cluster:&quot;</span>, kmeans3.cluster_centers_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Centroid cluster: [[4.38852459 1.43442623 5.88360656 2.74098361]
+ [1.464      0.244      5.006      3.418     ]
+ [5.71538462 2.05384615 6.85384615 3.07692308]]
+</code></pre>
+</div>
+</div>
+<div id="8779ce68" class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>sse3 <span class="op">=</span> kmeans3.inertia_</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;SSE (Inertia):&quot;</span>, sse3)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>sse_scores.append(sse3)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>SSE (Inertia): 78.9450658259773
+</code></pre>
+</div>
+</div>
+<div id="b4d451b9" class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reduksi dimensi ke 2 komponen utama untuk visualisasi</span></span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>X_pca <span class="op">=</span> pca.fit_transform(X_scaled)</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualisasi klaster hasil KMeans</span></span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>X_pca[:, <span class="dv">0</span>], y<span class="op">=</span>X_pca[:, <span class="dv">1</span>], hue<span class="op">=</span>kmeans3.labels_, palette<span class="op">=</span><span class="st">&quot;Set2&quot;</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Visualisasi Klastering K-Means (2 Klaster)&quot;</span>)</span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Komponen Utama 1&quot;</span>)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Komponen Utama 2&quot;</span>)</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Klaster&quot;</span>)</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/59e8dd28b6d1f79ff59bc00b4e5b08b16f86222e.png" /></p>
+</div>
+</div>
+<div id="6eb5b259" class="cell markdown">
+<h2 id="implementasi-klastering-k-means-dengan-4-klaster">Implementasi
+Klastering K-Means dengan 4 Klaster</h2>
+<p>Eksperimen ini menambah jumlah klaster menjadi 4. Tujuannya untuk
+mengetahui apakah pembagian yang lebih granular dapat memberikan hasil
+yang lebih baik.</p>
+</div>
+<div id="6d48de87" class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>kmeans4 <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">4</span>, random_state<span class="op">=</span><span class="dv">0</span>, n_init<span class="op">=</span><span class="st">&quot;auto&quot;</span>, max_iter<span class="op">=</span><span class="dv">300</span>, tol<span class="op">=</span><span class="fl">0.0001</span>, verbose<span class="op">=</span><span class="dv">0</span>,copy_x<span class="op">=</span><span class="va">True</span>,algorithm<span class="op">=</span><span class="st">&quot;lloyd&quot;</span>).fit(X)</span>
+<span id="cb26-2"><a href="#cb26-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hasil label cluster:&quot;</span>, kmeans4.labels_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hasil label cluster: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 3 3 3 0 3 0 3 0 3 0 0 0 0 3 0 3 0 0 3 0 3 0 3 3
+ 3 3 3 3 3 0 0 0 0 3 0 3 3 3 0 0 0 3 0 0 0 0 0 3 0 0 2 3 2 2 2 2 0 2 2 2 3
+ 3 2 3 3 2 2 2 2 3 2 3 2 3 2 2 3 3 2 2 2 2 2 3 3 2 2 2 3 2 2 2 3 2 2 2 3 3
+ 2 3]
+</code></pre>
+</div>
+</div>
+<div id="983dff2f" class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Centroid cluster:&quot;</span>, kmeans4.cluster_centers_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Centroid cluster: [[3.96071429 1.22857143 5.53214286 2.63571429]
+ [1.464      0.244      5.006      3.418     ]
+ [5.846875   2.13125    6.9125     3.1       ]
+ [4.815      1.625      6.2525     2.855     ]]
+</code></pre>
+</div>
+</div>
+<div id="1d5b3bb1" class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a>score4 <span class="op">=</span> silhouette_score(X, kmeans4.labels_)</span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Silhouette Score:&quot;</span>, score4)</span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>shilouette_scores.append(score4)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Silhouette Score: 0.49782569010954614
+</code></pre>
+</div>
+</div>
+<div id="133b6721" class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a>sse4 <span class="op">=</span> kmeans4.inertia_</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;SSE (Inertia):&quot;</span>, sse4)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>sse_scores.append(sse4)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>SSE (Inertia): 57.31787321428572
+</code></pre>
+</div>
+</div>
+<div id="d556b413" class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb34-3"><a href="#cb34-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb34-4"><a href="#cb34-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-5"><a href="#cb34-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reduksi dimensi ke 2 komponen utama untuk visualisasi</span></span>
+<span id="cb34-6"><a href="#cb34-6" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb34-7"><a href="#cb34-7" aria-hidden="true" tabindex="-1"></a>X_pca <span class="op">=</span> pca.fit_transform(X_scaled)</span>
+<span id="cb34-8"><a href="#cb34-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb34-9"><a href="#cb34-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualisasi klaster hasil KMeans</span></span>
+<span id="cb34-10"><a href="#cb34-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb34-11"><a href="#cb34-11" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>X_pca[:, <span class="dv">0</span>], y<span class="op">=</span>X_pca[:, <span class="dv">1</span>], hue<span class="op">=</span>kmeans4.labels_, palette<span class="op">=</span><span class="st">&quot;Set2&quot;</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb34-12"><a href="#cb34-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Visualisasi Klastering K-Means (2 Klaster)&quot;</span>)</span>
+<span id="cb34-13"><a href="#cb34-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Komponen Utama 1&quot;</span>)</span>
+<span id="cb34-14"><a href="#cb34-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Komponen Utama 2&quot;</span>)</span>
+<span id="cb34-15"><a href="#cb34-15" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Klaster&quot;</span>)</span>
+<span id="cb34-16"><a href="#cb34-16" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb34-17"><a href="#cb34-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb34-18"><a href="#cb34-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/59bc248d9d759028d185c25d0e89b65be1d9afee.png" /></p>
+</div>
+</div>
+<div id="307ad61b" class="cell markdown">
+<p><strong>Evaluasi Hasil Klustering</strong></p>
+</div>
+<div id="71c4613b" class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">5</span>))</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Elbow Plot</span></span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>plt.plot(<span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">5</span>), sse_scores, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Elbow Method (SSE)&#39;</span>)</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Jumlah Klaster (K)&#39;</span>)</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;SSE (Inertia)&#39;</span>)</span>
+<span id="cb35-11"><a href="#cb35-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-12"><a href="#cb35-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Silhouette Score Plot</span></span>
+<span id="cb35-13"><a href="#cb35-13" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb35-14"><a href="#cb35-14" aria-hidden="true" tabindex="-1"></a>plt.plot(<span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">5</span>), shilouette_scores, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color<span class="op">=</span><span class="st">&#39;green&#39;</span>)</span>
+<span id="cb35-15"><a href="#cb35-15" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Silhouette Score&#39;</span>)</span>
+<span id="cb35-16"><a href="#cb35-16" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Jumlah Klaster (K)&#39;</span>)</span>
+<span id="cb35-17"><a href="#cb35-17" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Silhouette Score&#39;</span>)</span>
+<span id="cb35-18"><a href="#cb35-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb35-19"><a href="#cb35-19" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb35-20"><a href="#cb35-20" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/f5e61c226e063a93d8b886871a826319ff8528d6.png" /></p>
+</div>
+</div>
+<div id="34ea59e7" class="cell markdown">
+<p>Melalui penerapan K-Means dengan jumlah klaster yang berbeda (2, 3,
+dan 4), kita dapat mengamati bagaimana pembagian data berubah dan
+seberapa baik setiap pembagian merepresentasikan struktur data asli.
+Penentuan jumlah klaster yang optimal sebaiknya dilakukan menggunakan
+metrik seperti:</p>
+<ul>
+<li><p>Elbow Method</p></li>
+<li><p>Silhouette Score</p></li>
+<li><p>Validasi domain atau interpretasi hasil</p></li>
+</ul>
+</div>
+<div id="232486d5" class="cell markdown">
+<h2 id="klastering-k-means-pada-data-dengan-label-kelas">Klastering
+K-Means pada Data dengan Label Kelas</h2>
+<p>Meskipun K-Means merupakan metode unsupervised (tanpa label), kita
+bisa membandingkan hasil klastering dengan label asli (jika tersedia)
+untuk mengevaluasi performa algoritma.</p>
+<h3 id="studi-kasus-dataset-iris">Studi Kasus: Dataset Iris</h3>
+<p>Dataset Iris merupakan dataset klasik yang memiliki 3 kelas bunga:
+Setosa, Versicolor, dan Virginica. Kita akan mencoba mengelompokkan data
+ini menggunakan K-Means dan membandingkannya dengan label
+sebenarnya.</p>
+</div>
+<div id="1e228c09" class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>shilouette_scores2 <span class="op">=</span> []</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a>sse_scores2 <span class="op">=</span> []</span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a>df2 <span class="op">=</span> pd.merge(df_mysql, df_postgres, on<span class="op">=</span><span class="st">&quot;id&quot;</span>, how<span class="op">=</span><span class="st">&quot;inner&quot;</span>)</span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>df2</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>class</th>
+      <th>petal_length</th>
+      <th>petal_width</th>
+      <th>sepal_length</th>
+      <th>sepal_width</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>Iris-setosa</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>5.1</td>
+      <td>3.5</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>Iris-setosa</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>4.9</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>3</td>
+      <td>Iris-setosa</td>
+      <td>1.3</td>
+      <td>0.2</td>
+      <td>4.7</td>
+      <td>3.2</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>4</td>
+      <td>Iris-setosa</td>
+      <td>1.5</td>
+      <td>0.2</td>
+      <td>4.6</td>
+      <td>3.1</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>5</td>
+      <td>Iris-setosa</td>
+      <td>1.4</td>
+      <td>0.2</td>
+      <td>5.0</td>
+      <td>3.6</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>145</th>
+      <td>146</td>
+      <td>Iris-virginica</td>
+      <td>5.2</td>
+      <td>2.3</td>
+      <td>6.7</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>146</th>
+      <td>147</td>
+      <td>Iris-virginica</td>
+      <td>5.0</td>
+      <td>1.9</td>
+      <td>6.3</td>
+      <td>2.5</td>
+    </tr>
+    <tr>
+      <th>147</th>
+      <td>148</td>
+      <td>Iris-virginica</td>
+      <td>5.2</td>
+      <td>2.0</td>
+      <td>6.5</td>
+      <td>3.0</td>
+    </tr>
+    <tr>
+      <th>148</th>
+      <td>149</td>
+      <td>Iris-virginica</td>
+      <td>5.4</td>
+      <td>2.3</td>
+      <td>6.2</td>
+      <td>3.4</td>
+    </tr>
+    <tr>
+      <th>149</th>
+      <td>150</td>
+      <td>Iris-virginica</td>
+      <td>5.1</td>
+      <td>1.8</td>
+      <td>5.9</td>
+      <td>3.0</td>
+    </tr>
+  </tbody>
+</table>
+<p>150 rows × 6 columns</p>
+</div>
+</div>
+</div>
+<div id="b0b811da" class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb37"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb37-1"><a href="#cb37-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> LabelEncoder</span>
+<span id="cb37-2"><a href="#cb37-2" aria-hidden="true" tabindex="-1"></a>le <span class="op">=</span> LabelEncoder()</span>
+<span id="cb37-3"><a href="#cb37-3" aria-hidden="true" tabindex="-1"></a>df2[<span class="st">&#39;class&#39;</span>] <span class="op">=</span> le.fit_transform(df[<span class="st">&#39;class&#39;</span>])</span></code></pre></div>
+</div>
+<div id="d4b5adc1" class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> df2.drop(columns<span class="op">=</span>[<span class="st">&quot;id&quot;</span>]).values</span>
+<span id="cb38-2"><a href="#cb38-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb38-3"><a href="#cb38-3" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> StandardScaler()</span>
+<span id="cb38-4"><a href="#cb38-4" aria-hidden="true" tabindex="-1"></a>X_scaled <span class="op">=</span> scaler.fit_transform(X)</span>
+<span id="cb38-5"><a href="#cb38-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(X_scaled)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>[[-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -9.00681170e-01
+   1.03205722e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -1.14301691e+00
+  -1.24957601e-01]
+ [-1.22474487e+00 -1.39813811e+00 -1.31297673e+00 -1.38535265e+00
+   3.37848329e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.31297673e+00 -1.50652052e+00
+   1.06445364e-01]
+ [-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -1.02184904e+00
+   1.26346019e+00]
+ [-1.22474487e+00 -1.17067529e+00 -1.05003079e+00 -5.37177559e-01
+   1.95766909e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.18150376e+00 -1.50652052e+00
+   8.00654259e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.31297673e+00 -1.02184904e+00
+   8.00654259e-01]
+ [-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -1.74885626e+00
+  -3.56360566e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.44444970e+00 -1.14301691e+00
+   1.06445364e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.31297673e+00 -5.37177559e-01
+   1.49486315e+00]
+ [-1.22474487e+00 -1.22754100e+00 -1.31297673e+00 -1.26418478e+00
+   8.00654259e-01]
+ [-1.22474487e+00 -1.34127240e+00 -1.44444970e+00 -1.26418478e+00
+  -1.24957601e-01]
+ [-1.22474487e+00 -1.51186952e+00 -1.44444970e+00 -1.87002413e+00
+  -1.24957601e-01]
+ [-1.22474487e+00 -1.45500381e+00 -1.31297673e+00 -5.25060772e-02
+   2.18907205e+00]
+ [-1.22474487e+00 -1.28440670e+00 -1.05003079e+00 -1.73673948e-01
+   3.11468391e+00]
+ [-1.22474487e+00 -1.39813811e+00 -1.05003079e+00 -5.37177559e-01
+   1.95766909e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.18150376e+00 -9.00681170e-01
+   1.03205722e+00]
+ [-1.22474487e+00 -1.17067529e+00 -1.18150376e+00 -1.73673948e-01
+   1.72626612e+00]
+ [-1.22474487e+00 -1.28440670e+00 -1.18150376e+00 -9.00681170e-01
+   1.72626612e+00]
+ [-1.22474487e+00 -1.17067529e+00 -1.31297673e+00 -5.37177559e-01
+   8.00654259e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.05003079e+00 -9.00681170e-01
+   1.49486315e+00]
+ [-1.22474487e+00 -1.56873522e+00 -1.31297673e+00 -1.50652052e+00
+   1.26346019e+00]
+ [-1.22474487e+00 -1.17067529e+00 -9.18557817e-01 -9.00681170e-01
+   5.69251294e-01]
+ [-1.22474487e+00 -1.05694388e+00 -1.31297673e+00 -1.26418478e+00
+   8.00654259e-01]
+ [-1.22474487e+00 -1.22754100e+00 -1.31297673e+00 -1.02184904e+00
+  -1.24957601e-01]
+ [-1.22474487e+00 -1.22754100e+00 -1.05003079e+00 -1.02184904e+00
+   8.00654259e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.31297673e+00 -7.79513300e-01
+   1.03205722e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -7.79513300e-01
+   8.00654259e-01]
+ [-1.22474487e+00 -1.22754100e+00 -1.31297673e+00 -1.38535265e+00
+   3.37848329e-01]
+ [-1.22474487e+00 -1.22754100e+00 -1.31297673e+00 -1.26418478e+00
+   1.06445364e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.05003079e+00 -5.37177559e-01
+   8.00654259e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.44444970e+00 -7.79513300e-01
+   2.42047502e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -4.16009689e-01
+   2.65187798e+00]
+ [-1.22474487e+00 -1.28440670e+00 -1.44444970e+00 -1.14301691e+00
+   1.06445364e-01]
+ [-1.22474487e+00 -1.45500381e+00 -1.31297673e+00 -1.02184904e+00
+   3.37848329e-01]
+ [-1.22474487e+00 -1.39813811e+00 -1.31297673e+00 -4.16009689e-01
+   1.03205722e+00]
+ [-1.22474487e+00 -1.28440670e+00 -1.44444970e+00 -1.14301691e+00
+   1.06445364e-01]
+ [-1.22474487e+00 -1.39813811e+00 -1.31297673e+00 -1.74885626e+00
+  -1.24957601e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.31297673e+00 -9.00681170e-01
+   8.00654259e-01]
+ [-1.22474487e+00 -1.39813811e+00 -1.18150376e+00 -1.02184904e+00
+   1.03205722e+00]
+ [-1.22474487e+00 -1.39813811e+00 -1.18150376e+00 -1.62768839e+00
+  -1.74477836e+00]
+ [-1.22474487e+00 -1.39813811e+00 -1.31297673e+00 -1.74885626e+00
+   3.37848329e-01]
+ [-1.22474487e+00 -1.22754100e+00 -7.87084847e-01 -1.02184904e+00
+   1.03205722e+00]
+ [-1.22474487e+00 -1.05694388e+00 -1.05003079e+00 -9.00681170e-01
+   1.72626612e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.18150376e+00 -1.26418478e+00
+  -1.24957601e-01]
+ [-1.22474487e+00 -1.22754100e+00 -1.31297673e+00 -9.00681170e-01
+   1.72626612e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -1.50652052e+00
+   3.37848329e-01]
+ [-1.22474487e+00 -1.28440670e+00 -1.31297673e+00 -6.58345429e-01
+   1.49486315e+00]
+ [-1.22474487e+00 -1.34127240e+00 -1.31297673e+00 -1.02184904e+00
+   5.69251294e-01]
+ [ 0.00000000e+00  5.35295827e-01  2.64698913e-01  1.40150837e+00
+   3.37848329e-01]
+ [ 0.00000000e+00  4.21564419e-01  3.96171883e-01  6.74501145e-01
+   3.37848329e-01]
+ [ 0.00000000e+00  6.49027235e-01  3.96171883e-01  1.28034050e+00
+   1.06445364e-01]
+ [ 0.00000000e+00  1.37235899e-01  1.33225943e-01 -4.16009689e-01
+  -1.74477836e+00]
+ [ 0.00000000e+00  4.78430123e-01  3.96171883e-01  7.95669016e-01
+  -5.87763531e-01]
+ [ 0.00000000e+00  4.21564419e-01  1.33225943e-01 -1.73673948e-01
+  -5.87763531e-01]
+ [ 0.00000000e+00  5.35295827e-01  5.27644853e-01  5.53333275e-01
+   5.69251294e-01]
+ [ 0.00000000e+00 -2.60824029e-01 -2.61192967e-01 -1.14301691e+00
+  -1.51337539e+00]
+ [ 0.00000000e+00  4.78430123e-01  1.33225943e-01  9.16836886e-01
+  -3.56360566e-01]
+ [ 0.00000000e+00  8.03701950e-02  2.64698913e-01 -7.79513300e-01
+  -8.19166497e-01]
+ [ 0.00000000e+00 -1.47092621e-01 -2.61192967e-01 -1.02184904e+00
+  -2.43898725e+00]
+ [ 0.00000000e+00  2.50967307e-01  3.96171883e-01  6.86617933e-02
+  -1.24957601e-01]
+ [ 0.00000000e+00  1.37235899e-01 -2.61192967e-01  1.89829664e-01
+  -1.97618132e+00]
+ [ 0.00000000e+00  5.35295827e-01  2.64698913e-01  3.10997534e-01
+  -3.56360566e-01]
+ [ 0.00000000e+00 -9.02269170e-02  1.33225943e-01 -2.94841818e-01
+  -3.56360566e-01]
+ [ 0.00000000e+00  3.64698715e-01  2.64698913e-01  1.03800476e+00
+   1.06445364e-01]
+ [ 0.00000000e+00  4.21564419e-01  3.96171883e-01 -2.94841818e-01
+  -1.24957601e-01]
+ [ 0.00000000e+00  1.94101603e-01 -2.61192967e-01 -5.25060772e-02
+  -8.19166497e-01]
+ [ 0.00000000e+00  4.21564419e-01  3.96171883e-01  4.32165405e-01
+  -1.97618132e+00]
+ [ 0.00000000e+00  8.03701950e-02 -1.29719997e-01 -2.94841818e-01
+  -1.28197243e+00]
+ [ 0.00000000e+00  5.92161531e-01  7.90590793e-01  6.86617933e-02
+   3.37848329e-01]
+ [ 0.00000000e+00  1.37235899e-01  1.33225943e-01  3.10997534e-01
+  -5.87763531e-01]
+ [ 0.00000000e+00  6.49027235e-01  3.96171883e-01  5.53333275e-01
+  -1.28197243e+00]
+ [ 0.00000000e+00  5.35295827e-01  1.75297293e-03  3.10997534e-01
+  -5.87763531e-01]
+ [ 0.00000000e+00  3.07833011e-01  1.33225943e-01  6.74501145e-01
+  -3.56360566e-01]
+ [ 0.00000000e+00  3.64698715e-01  2.64698913e-01  9.16836886e-01
+  -1.24957601e-01]
+ [ 0.00000000e+00  5.92161531e-01  2.64698913e-01  1.15917263e+00
+  -5.87763531e-01]
+ [ 0.00000000e+00  7.05892939e-01  6.59117823e-01  1.03800476e+00
+  -1.24957601e-01]
+ [ 0.00000000e+00  4.21564419e-01  3.96171883e-01  1.89829664e-01
+  -3.56360566e-01]
+ [ 0.00000000e+00 -1.47092621e-01 -2.61192967e-01 -1.73673948e-01
+  -1.05056946e+00]
+ [ 0.00000000e+00  2.35044910e-02 -1.29719997e-01 -4.16009689e-01
+  -1.51337539e+00]
+ [ 0.00000000e+00 -3.33612130e-02 -2.61192967e-01 -4.16009689e-01
+  -1.51337539e+00]
+ [ 0.00000000e+00  8.03701950e-02  1.75297293e-03 -5.25060772e-02
+  -8.19166497e-01]
+ [ 0.00000000e+00  7.62758643e-01  5.27644853e-01  1.89829664e-01
+  -8.19166497e-01]
+ [ 0.00000000e+00  4.21564419e-01  3.96171883e-01 -5.37177559e-01
+  -1.24957601e-01]
+ [ 0.00000000e+00  4.21564419e-01  5.27644853e-01  1.89829664e-01
+   8.00654259e-01]
+ [ 0.00000000e+00  5.35295827e-01  3.96171883e-01  1.03800476e+00
+   1.06445364e-01]
+ [ 0.00000000e+00  3.64698715e-01  1.33225943e-01  5.53333275e-01
+  -1.74477836e+00]
+ [ 0.00000000e+00  1.94101603e-01  1.33225943e-01 -2.94841818e-01
+  -1.24957601e-01]
+ [ 0.00000000e+00  1.37235899e-01  1.33225943e-01 -4.16009689e-01
+  -1.28197243e+00]
+ [ 0.00000000e+00  3.64698715e-01  1.75297293e-03 -4.16009689e-01
+  -1.05056946e+00]
+ [ 0.00000000e+00  4.78430123e-01  2.64698913e-01  3.10997534e-01
+  -1.24957601e-01]
+ [ 0.00000000e+00  1.37235899e-01  1.75297293e-03 -5.25060772e-02
+  -1.05056946e+00]
+ [ 0.00000000e+00 -2.60824029e-01 -2.61192967e-01 -1.02184904e+00
+  -1.74477836e+00]
+ [ 0.00000000e+00  2.50967307e-01  1.33225943e-01 -2.94841818e-01
+  -8.19166497e-01]
+ [ 0.00000000e+00  2.50967307e-01  1.75297293e-03 -1.73673948e-01
+  -1.24957601e-01]
+ [ 0.00000000e+00  2.50967307e-01  1.33225943e-01 -1.73673948e-01
+  -3.56360566e-01]
+ [ 0.00000000e+00  3.07833011e-01  1.33225943e-01  4.32165405e-01
+  -3.56360566e-01]
+ [ 0.00000000e+00 -4.31421141e-01 -1.29719997e-01 -9.00681170e-01
+  -1.28197243e+00]
+ [ 0.00000000e+00  1.94101603e-01  1.33225943e-01 -1.73673948e-01
+  -5.87763531e-01]
+ [ 1.22474487e+00  1.27454998e+00  1.71090158e+00  5.53333275e-01
+   5.69251294e-01]
+ [ 1.22474487e+00  7.62758643e-01  9.22063763e-01 -5.25060772e-02
+  -8.19166497e-01]
+ [ 1.22474487e+00  1.21768427e+00  1.18500970e+00  1.52267624e+00
+  -1.24957601e-01]
+ [ 1.22474487e+00  1.04708716e+00  7.90590793e-01  5.53333275e-01
+  -3.56360566e-01]
+ [ 1.22474487e+00  1.16081857e+00  1.31648267e+00  7.95669016e-01
+  -1.24957601e-01]
+ [ 1.22474487e+00  1.61574420e+00  1.18500970e+00  2.12851559e+00
+  -1.24957601e-01]
+ [ 1.22474487e+00  4.21564419e-01  6.59117823e-01 -1.14301691e+00
+  -1.28197243e+00]
+ [ 1.22474487e+00  1.44514709e+00  7.90590793e-01  1.76501198e+00
+  -3.56360566e-01]
+ [ 1.22474487e+00  1.16081857e+00  7.90590793e-01  1.03800476e+00
+  -1.28197243e+00]
+ [ 1.22474487e+00  1.33141568e+00  1.71090158e+00  1.64384411e+00
+   1.26346019e+00]
+ [ 1.22474487e+00  7.62758643e-01  1.05353673e+00  7.95669016e-01
+   3.37848329e-01]
+ [ 1.22474487e+00  8.76490051e-01  9.22063763e-01  6.74501145e-01
+  -8.19166497e-01]
+ [ 1.22474487e+00  9.90221459e-01  1.18500970e+00  1.15917263e+00
+  -1.24957601e-01]
+ [ 1.22474487e+00  7.05892939e-01  1.05353673e+00 -1.73673948e-01
+  -1.28197243e+00]
+ [ 1.22474487e+00  7.62758643e-01  1.57942861e+00 -5.25060772e-02
+  -5.87763531e-01]
+ [ 1.22474487e+00  8.76490051e-01  1.44795564e+00  6.74501145e-01
+   3.37848329e-01]
+ [ 1.22474487e+00  9.90221459e-01  7.90590793e-01  7.95669016e-01
+  -1.24957601e-01]
+ [ 1.22474487e+00  1.67260991e+00  1.31648267e+00  2.24968346e+00
+   1.72626612e+00]
+ [ 1.22474487e+00  1.78634131e+00  1.44795564e+00  2.24968346e+00
+  -1.05056946e+00]
+ [ 1.22474487e+00  7.05892939e-01  3.96171883e-01  1.89829664e-01
+  -1.97618132e+00]
+ [ 1.22474487e+00  1.10395287e+00  1.44795564e+00  1.28034050e+00
+   3.37848329e-01]
+ [ 1.22474487e+00  6.49027235e-01  1.05353673e+00 -2.94841818e-01
+  -5.87763531e-01]
+ [ 1.22474487e+00  1.67260991e+00  1.05353673e+00  2.24968346e+00
+  -5.87763531e-01]
+ [ 1.22474487e+00  6.49027235e-01  7.90590793e-01  5.53333275e-01
+  -8.19166497e-01]
+ [ 1.22474487e+00  1.10395287e+00  1.18500970e+00  1.03800476e+00
+   5.69251294e-01]
+ [ 1.22474487e+00  1.27454998e+00  7.90590793e-01  1.64384411e+00
+   3.37848329e-01]
+ [ 1.22474487e+00  5.92161531e-01  7.90590793e-01  4.32165405e-01
+  -5.87763531e-01]
+ [ 1.22474487e+00  6.49027235e-01  7.90590793e-01  3.10997534e-01
+  -1.24957601e-01]
+ [ 1.22474487e+00  1.04708716e+00  1.18500970e+00  6.74501145e-01
+  -5.87763531e-01]
+ [ 1.22474487e+00  1.16081857e+00  5.27644853e-01  1.64384411e+00
+  -1.24957601e-01]
+ [ 1.22474487e+00  1.33141568e+00  9.22063763e-01  1.88617985e+00
+  -5.87763531e-01]
+ [ 1.22474487e+00  1.50201279e+00  1.05353673e+00  2.49201920e+00
+   1.72626612e+00]
+ [ 1.22474487e+00  1.04708716e+00  1.31648267e+00  6.74501145e-01
+  -5.87763531e-01]
+ [ 1.22474487e+00  7.62758643e-01  3.96171883e-01  5.53333275e-01
+  -5.87763531e-01]
+ [ 1.22474487e+00  1.04708716e+00  2.64698913e-01  3.10997534e-01
+  -1.05056946e+00]
+ [ 1.22474487e+00  1.33141568e+00  1.44795564e+00  2.24968346e+00
+  -1.24957601e-01]
+ [ 1.22474487e+00  1.04708716e+00  1.57942861e+00  5.53333275e-01
+   8.00654259e-01]
+ [ 1.22474487e+00  9.90221459e-01  7.90590793e-01  6.74501145e-01
+   1.06445364e-01]
+ [ 1.22474487e+00  5.92161531e-01  7.90590793e-01  1.89829664e-01
+  -1.24957601e-01]
+ [ 1.22474487e+00  9.33355755e-01  1.18500970e+00  1.28034050e+00
+   1.06445364e-01]
+ [ 1.22474487e+00  1.04708716e+00  1.57942861e+00  1.03800476e+00
+   1.06445364e-01]
+ [ 1.22474487e+00  7.62758643e-01  1.44795564e+00  1.28034050e+00
+   1.06445364e-01]
+ [ 1.22474487e+00  7.62758643e-01  9.22063763e-01 -5.25060772e-02
+  -8.19166497e-01]
+ [ 1.22474487e+00  1.21768427e+00  1.44795564e+00  1.15917263e+00
+   3.37848329e-01]
+ [ 1.22474487e+00  1.10395287e+00  1.71090158e+00  1.03800476e+00
+   5.69251294e-01]
+ [ 1.22474487e+00  8.19624347e-01  1.44795564e+00  1.03800476e+00
+  -1.24957601e-01]
+ [ 1.22474487e+00  7.05892939e-01  9.22063763e-01  5.53333275e-01
+  -1.28197243e+00]
+ [ 1.22474487e+00  8.19624347e-01  1.05353673e+00  7.95669016e-01
+  -1.24957601e-01]
+ [ 1.22474487e+00  9.33355755e-01  1.44795564e+00  4.32165405e-01
+   8.00654259e-01]
+ [ 1.22474487e+00  7.62758643e-01  7.90590793e-01  6.86617933e-02
+  -1.24957601e-01]]
+</code></pre>
+</div>
+</div>
+<div id="2f62684a" class="cell markdown">
+<p><strong>Klastering K-Means dengan 2 Klaster</strong></p>
+</div>
+<div id="19e91717" class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb40"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb40-1"><a href="#cb40-1" aria-hidden="true" tabindex="-1"></a>kmeansc <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">2</span>, random_state<span class="op">=</span><span class="dv">0</span>, n_init<span class="op">=</span><span class="st">&quot;auto&quot;</span>, max_iter<span class="op">=</span><span class="dv">300</span>, tol<span class="op">=</span><span class="fl">0.0001</span>, verbose<span class="op">=</span><span class="dv">0</span>,copy_x<span class="op">=</span><span class="va">True</span>,algorithm<span class="op">=</span><span class="st">&quot;lloyd&quot;</span>).fit(X_scaled)</span>
+<span id="cb40-2"><a href="#cb40-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hasil label cluster:&quot;</span>, kmeansc.labels_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hasil label cluster: [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1]
+</code></pre>
+</div>
+</div>
+<div id="cdd69f0a" class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb42"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Centroid cluster:&quot;</span>, kmeansc.cluster_centers_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Centroid cluster: [[-1.22474487 -1.30487835 -1.25512862 -1.01457897  0.84230679]
+ [ 0.61237244  0.65243918  0.62756431  0.50728948 -0.4211534 ]]
+</code></pre>
+</div>
+</div>
+<div id="07acc8a3" class="cell code" data-execution_count="27">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a>scorec <span class="op">=</span> silhouette_score(X_scaled, kmeansc.labels_)</span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Silhouette Score:&quot;</span>, scorec)</span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>shilouette_scores2.append(scorec)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Silhouette Score: 0.590106337998464
+</code></pre>
+</div>
+</div>
+<div id="c5d91ba5" class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>ssec <span class="op">=</span> kmeansc.inertia_</span>
+<span id="cb46-2"><a href="#cb46-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;SSE (Inertia):&quot;</span>, ssec)</span>
+<span id="cb46-3"><a href="#cb46-3" aria-hidden="true" tabindex="-1"></a>sse_scores2.append(ssec)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>SSE (Inertia): 261.2320057367634
+</code></pre>
+</div>
+</div>
+<div id="c1a32a99" class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb48-2"><a href="#cb48-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb48-3"><a href="#cb48-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb48-4"><a href="#cb48-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-5"><a href="#cb48-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reduksi dimensi ke 2 komponen utama untuk visualisasi</span></span>
+<span id="cb48-6"><a href="#cb48-6" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb48-7"><a href="#cb48-7" aria-hidden="true" tabindex="-1"></a>X_pca <span class="op">=</span> pca.fit_transform(X_scaled)</span>
+<span id="cb48-8"><a href="#cb48-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb48-9"><a href="#cb48-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualisasi klaster hasil KMeans</span></span>
+<span id="cb48-10"><a href="#cb48-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb48-11"><a href="#cb48-11" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>X_pca[:, <span class="dv">0</span>], y<span class="op">=</span>X_pca[:, <span class="dv">1</span>], hue<span class="op">=</span>kmeansc.labels_, palette<span class="op">=</span><span class="st">&quot;Set2&quot;</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb48-12"><a href="#cb48-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Visualisasi Klastering K-Means (2 Klaster)&quot;</span>)</span>
+<span id="cb48-13"><a href="#cb48-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Komponen Utama 1&quot;</span>)</span>
+<span id="cb48-14"><a href="#cb48-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Komponen Utama 2&quot;</span>)</span>
+<span id="cb48-15"><a href="#cb48-15" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Klaster&quot;</span>)</span>
+<span id="cb48-16"><a href="#cb48-16" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb48-17"><a href="#cb48-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb48-18"><a href="#cb48-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/3bcec06b9bff61e9dfb5e2f58b89ae4e4132c78d.png" /></p>
+</div>
+</div>
+<div id="77ac8d1c" class="cell markdown">
+<p><strong>Klastering K-Means dengan 3 Klaster</strong></p>
+</div>
+<div id="f04e72d8" class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb49"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb49-1"><a href="#cb49-1" aria-hidden="true" tabindex="-1"></a>kmeansc3 <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">3</span>, random_state<span class="op">=</span><span class="dv">0</span>, n_init<span class="op">=</span><span class="st">&quot;auto&quot;</span>, max_iter<span class="op">=</span><span class="dv">300</span>, tol<span class="op">=</span><span class="fl">0.0001</span>, verbose<span class="op">=</span><span class="dv">0</span>,copy_x<span class="op">=</span><span class="va">True</span>,algorithm<span class="op">=</span><span class="st">&quot;lloyd&quot;</span>).fit(X_scaled)</span>
+<span id="cb49-2"><a href="#cb49-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hasil label cluster:&quot;</span>, kmeansc3.labels_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hasil label cluster: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 2 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 2 2 2 2 0 2 2 2 2
+ 2 2 0 2 2 2 2 2 0 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2 2
+ 2 2]
+</code></pre>
+</div>
+</div>
+<div id="c5ee466e" class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Centroid cluster:&quot;</span>, kmeansc3.cluster_centers_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Centroid cluster: [[ 0.07348469  0.28394942  0.18318567  0.01534793 -0.75437367]
+ [-1.22474487 -1.30487835 -1.25512862 -1.01457897  0.84230679]
+ [ 1.15126018  1.02092894  1.07194295  0.99923104 -0.08793313]]
+</code></pre>
+</div>
+</div>
+<div id="caeb4ebf" class="cell code" data-execution_count="32">
+<div class="sourceCode" id="cb53"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb53-1"><a href="#cb53-1" aria-hidden="true" tabindex="-1"></a>scorec3 <span class="op">=</span> silhouette_score(X, kmeansc.labels_)</span>
+<span id="cb53-2"><a href="#cb53-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Silhouette Score:&quot;</span>, scorec3)</span>
+<span id="cb53-3"><a href="#cb53-3" aria-hidden="true" tabindex="-1"></a>shilouette_scores2.append(scorec3)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Silhouette Score: 0.6822257796144711
+</code></pre>
+</div>
+</div>
+<div id="d24eb448" class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb55"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb55-1"><a href="#cb55-1" aria-hidden="true" tabindex="-1"></a>ssec3 <span class="op">=</span> kmeansc3.inertia_</span>
+<span id="cb55-2"><a href="#cb55-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;SSE (Inertia):&quot;</span>, ssec3)</span>
+<span id="cb55-3"><a href="#cb55-3" aria-hidden="true" tabindex="-1"></a>sse_scores2.append(ssec3)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>SSE (Inertia): 163.5620737524751
+</code></pre>
+</div>
+</div>
+<div id="fa5b4507" class="cell code" data-execution_count="34">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb57-1"><a href="#cb57-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb57-2"><a href="#cb57-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb57-3"><a href="#cb57-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb57-4"><a href="#cb57-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-5"><a href="#cb57-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reduksi dimensi ke 2 komponen utama untuk visualisasi</span></span>
+<span id="cb57-6"><a href="#cb57-6" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb57-7"><a href="#cb57-7" aria-hidden="true" tabindex="-1"></a>X_pca <span class="op">=</span> pca.fit_transform(X_scaled)</span>
+<span id="cb57-8"><a href="#cb57-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb57-9"><a href="#cb57-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualisasi klaster hasil KMeans</span></span>
+<span id="cb57-10"><a href="#cb57-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb57-11"><a href="#cb57-11" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>X_pca[:, <span class="dv">0</span>], y<span class="op">=</span>X_pca[:, <span class="dv">1</span>], hue<span class="op">=</span>kmeansc3.labels_, palette<span class="op">=</span><span class="st">&quot;Set2&quot;</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb57-12"><a href="#cb57-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Visualisasi Klastering K-Means (2 Klaster)&quot;</span>)</span>
+<span id="cb57-13"><a href="#cb57-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Komponen Utama 1&quot;</span>)</span>
+<span id="cb57-14"><a href="#cb57-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Komponen Utama 2&quot;</span>)</span>
+<span id="cb57-15"><a href="#cb57-15" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Klaster&quot;</span>)</span>
+<span id="cb57-16"><a href="#cb57-16" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb57-17"><a href="#cb57-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb57-18"><a href="#cb57-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/507f7992ad5517ba12df98282d97d26471f9df0a.png" /></p>
+</div>
+</div>
+<div id="01f6ad65" class="cell markdown">
+<p><strong>Klastering K-Means dengan 4 Klaster</strong></p>
+</div>
+<div id="3c04492c" class="cell code" data-execution_count="35">
+<div class="sourceCode" id="cb58"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb58-1"><a href="#cb58-1" aria-hidden="true" tabindex="-1"></a>kmeansc4 <span class="op">=</span> KMeans(n_clusters<span class="op">=</span><span class="dv">4</span>, random_state<span class="op">=</span><span class="dv">0</span>, n_init<span class="op">=</span><span class="st">&quot;auto&quot;</span>, max_iter<span class="op">=</span><span class="dv">300</span>, tol<span class="op">=</span><span class="fl">0.0001</span>, verbose<span class="op">=</span><span class="dv">0</span>,copy_x<span class="op">=</span><span class="va">True</span>,algorithm<span class="op">=</span><span class="st">&quot;lloyd&quot;</span>).fit(X_scaled)</span>
+<span id="cb58-2"><a href="#cb58-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Hasil label cluster:&quot;</span>, kmeansc4.labels_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Hasil label cluster: [1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 2 3 2 3 3 2 3 2 3 3
+ 2 3 2 2 3 2 3 3 2 3 2 3 2 3 3 2 2 2 3 3 3 2 2 2 3 3 2 2 3 3 3 2 3 3 3 2 2
+ 3 2]
+</code></pre>
+</div>
+</div>
+<div id="71991607" class="cell code" data-execution_count="36">
+<div class="sourceCode" id="cb60"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb60-1"><a href="#cb60-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Centroid cluster:&quot;</span>, kmeansc4.cluster_centers_)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Centroid cluster: [[ 1.23259516e-32  2.85086729e-01  1.67408915e-01  1.12282227e-01
+  -6.57184421e-01]
+ [-1.22474487e+00 -1.30487835e+00 -1.25512862e+00 -1.01457897e+00
+   8.42306793e-01]
+ [ 1.22474487e+00  8.04789815e-01  8.59185386e-01  3.16265702e-01
+  -6.88373516e-01]
+ [ 1.22474487e+00  1.20294131e+00  1.28239709e+00  1.40150837e+00
+   2.43573047e-01]]
+</code></pre>
+</div>
+</div>
+<div id="2e5d1b43" class="cell code" data-execution_count="37">
+<div class="sourceCode" id="cb62"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb62-1"><a href="#cb62-1" aria-hidden="true" tabindex="-1"></a>scorec4 <span class="op">=</span> silhouette_score(X_scaled, kmeansc4.labels_)</span>
+<span id="cb62-2"><a href="#cb62-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Silhouette Score:&quot;</span>, scorec4)</span>
+<span id="cb62-3"><a href="#cb62-3" aria-hidden="true" tabindex="-1"></a>shilouette_scores2.append(scorec4)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Silhouette Score: 0.43992558278685323
+</code></pre>
+</div>
+</div>
+<div id="c8252589" class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb64"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb64-1"><a href="#cb64-1" aria-hidden="true" tabindex="-1"></a>ssec4 <span class="op">=</span> kmeansc4.inertia_</span>
+<span id="cb64-2"><a href="#cb64-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;SSE (Inertia):&quot;</span>, ssec4)</span>
+<span id="cb64-3"><a href="#cb64-3" aria-hidden="true" tabindex="-1"></a>sse_scores2.append(ssec4)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>SSE (Inertia): 138.2806397650385
+</code></pre>
+</div>
+</div>
+<div id="d924f8fe" class="cell code" data-execution_count="39">
+<div class="sourceCode" id="cb66"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb66-1"><a href="#cb66-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span>
+<span id="cb66-2"><a href="#cb66-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb66-3"><a href="#cb66-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns</span>
+<span id="cb66-4"><a href="#cb66-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-5"><a href="#cb66-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Reduksi dimensi ke 2 komponen utama untuk visualisasi</span></span>
+<span id="cb66-6"><a href="#cb66-6" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb66-7"><a href="#cb66-7" aria-hidden="true" tabindex="-1"></a>X_pca <span class="op">=</span> pca.fit_transform(X_scaled)</span>
+<span id="cb66-8"><a href="#cb66-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb66-9"><a href="#cb66-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Visualisasi klaster hasil KMeans</span></span>
+<span id="cb66-10"><a href="#cb66-10" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">6</span>))</span>
+<span id="cb66-11"><a href="#cb66-11" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x<span class="op">=</span>X_pca[:, <span class="dv">0</span>], y<span class="op">=</span>X_pca[:, <span class="dv">1</span>], hue<span class="op">=</span>kmeansc4.labels_, palette<span class="op">=</span><span class="st">&quot;Set2&quot;</span>, s<span class="op">=</span><span class="dv">100</span>)</span>
+<span id="cb66-12"><a href="#cb66-12" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Visualisasi Klastering K-Means (2 Klaster)&quot;</span>)</span>
+<span id="cb66-13"><a href="#cb66-13" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&quot;Komponen Utama 1&quot;</span>)</span>
+<span id="cb66-14"><a href="#cb66-14" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&quot;Komponen Utama 2&quot;</span>)</span>
+<span id="cb66-15"><a href="#cb66-15" aria-hidden="true" tabindex="-1"></a>plt.legend(title<span class="op">=</span><span class="st">&quot;Klaster&quot;</span>)</span>
+<span id="cb66-16"><a href="#cb66-16" aria-hidden="true" tabindex="-1"></a>plt.grid(<span class="va">True</span>)</span>
+<span id="cb66-17"><a href="#cb66-17" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb66-18"><a href="#cb66-18" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/3cd9c992641b0697abd35a159c68c5d0ca259511.png" /></p>
+</div>
+</div>
+<div id="b876f9b7" class="cell code" data-execution_count="40">
+<div class="sourceCode" id="cb67"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb67-1"><a href="#cb67-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb67-2"><a href="#cb67-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-3"><a href="#cb67-3" aria-hidden="true" tabindex="-1"></a><span class="co"># 4. Visualisasi SSE dan Silhouette Score</span></span>
+<span id="cb67-4"><a href="#cb67-4" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">12</span>, <span class="dv">5</span>))</span>
+<span id="cb67-5"><a href="#cb67-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-6"><a href="#cb67-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Elbow Plot</span></span>
+<span id="cb67-7"><a href="#cb67-7" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">1</span>)</span>
+<span id="cb67-8"><a href="#cb67-8" aria-hidden="true" tabindex="-1"></a>plt.plot(<span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">5</span>), sse_scores2, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>)</span>
+<span id="cb67-9"><a href="#cb67-9" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Elbow Method (SSE)&#39;</span>)</span>
+<span id="cb67-10"><a href="#cb67-10" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Jumlah Klaster (K)&#39;</span>)</span>
+<span id="cb67-11"><a href="#cb67-11" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;SSE (Inertia)&#39;</span>)</span>
+<span id="cb67-12"><a href="#cb67-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-13"><a href="#cb67-13" aria-hidden="true" tabindex="-1"></a><span class="co"># Silhouette Score Plot</span></span>
+<span id="cb67-14"><a href="#cb67-14" aria-hidden="true" tabindex="-1"></a>plt.subplot(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">2</span>)</span>
+<span id="cb67-15"><a href="#cb67-15" aria-hidden="true" tabindex="-1"></a>plt.plot(<span class="bu">range</span>(<span class="dv">2</span>, <span class="dv">5</span>), shilouette_scores2, marker<span class="op">=</span><span class="st">&#39;o&#39;</span>, color<span class="op">=</span><span class="st">&#39;green&#39;</span>)</span>
+<span id="cb67-16"><a href="#cb67-16" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Silhouette Score&#39;</span>)</span>
+<span id="cb67-17"><a href="#cb67-17" aria-hidden="true" tabindex="-1"></a>plt.xlabel(<span class="st">&#39;Jumlah Klaster (K)&#39;</span>)</span>
+<span id="cb67-18"><a href="#cb67-18" aria-hidden="true" tabindex="-1"></a>plt.ylabel(<span class="st">&#39;Silhouette Score&#39;</span>)</span>
+<span id="cb67-19"><a href="#cb67-19" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb67-20"><a href="#cb67-20" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb67-21"><a href="#cb67-21" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_575bca8896724ce3b2165a05200301f2/2fe5a3f3226b93f1ed5aa35cbfc98054fc3251e9.png" /></p>
+</div>
+</div>
+<div id="4f3f59af" class="cell code">
+<div class="sourceCode" id="cb68"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
